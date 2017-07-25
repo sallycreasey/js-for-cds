@@ -1,1 +1,10 @@
+body {
+  font-family: sans-serif;
+  max-width: 70%;
+}
 
+h1 {
+  font-size: 2em;
+  border-bottom: 2px solid black;
+}
+  
