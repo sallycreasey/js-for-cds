@@ -8,5 +8,6 @@ body {
 h1 {
   font-size: 2em;
   border-bottom: 2px solid black;
+  padding-bottom: 1em;
 }
   
