@@ -3,9 +3,9 @@ function showHide() {
     var y = document.getElementById('toggle-button')
     if (x.style.display === 'none') {
         x.style.display = 'block'
-        y.innerHtml = 'Click again to make paragraph x reappear'
+        y.innerhtml = 'Click to make paragraph x disappear'
     } else {
         x.style.display = 'none'
-        y.innerHtml = 'Click to make paragraph x disappear'
+        y.innerhtml = 'Click again to make paragraph x reappear'
     }
 }
