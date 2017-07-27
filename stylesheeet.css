@@ -9,7 +9,7 @@ h1 {
   font-size: 2em;
   border-bottom: 2px solid black;
   padding: 1em;
-  margin: 2em;
+  margin: 2em 2em 2em 0;
 }
 
 .toggle {
