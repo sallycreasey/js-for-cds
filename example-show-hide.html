@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Example - a show/hide toggle using ‘onclick’ and ‘getElementById’</title>
-    <link rel="stylsheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
   <body>
     <h1>Example - a show/hide toggle using 'onclick' and 'getElementById'</h1>
@@ -9,3 +9,10 @@
     <p class="toggle" onclick="{getElementById(‘x’).style.display=‘none’}">Click to make paragraph x disappear</p>
   </body>
 </html>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<p onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Click Me!</p>
+
